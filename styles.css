@@ -196,6 +196,16 @@ footer {
         text-align: center;
     }
 
+    .projects-grid {
+        grid-template-columns: 1fr; /* Одна колонка */
+        gap: 20px;
+    }
+
+    .project-card {
+        max-width: 100%; /* Занимает всю ширину экрана */
+        margin: 0 15px; /* Небольшие отступы по бокам */
+    }
+
     .footer-content {
         flex-direction: column;
     }
